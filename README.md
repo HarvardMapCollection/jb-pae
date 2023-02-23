@@ -1,4 +1,4 @@
 # Data diary
 
-Source data comes from: [POPULATE]
+Source data was obtained via [POPULATE] on [DATE]
 
