@@ -2,7 +2,7 @@
 
 ## Overview
 
-1. Source data was obtained via [POPULATE] on [DATE] and is in folder `original`.
+1. Source data was obtained via [Encuesta Nacional de Población Privada de la Libertad (ENPOL) 2021](https://www.inegi.org.mx/programas/enpol/2021/#Microdatos), or the National Survey of Population Deprived of Liberty on 2/23/23 and is in folder `original`.
 
 2. In its original state, the data came as two spreadsheets `ENPOL2021_2_3` and `ENPOL2021_SOC`, where one record in each represents a survey response from an incarcerated person. There are state codes for the following variables, which JB would like to use to create choropleth or flow maps:
   - P1_5: state of birth
@@ -30,8 +30,6 @@ You can use the `geojson` polygon layers in `state_counts` to visualize the data
 
 
 # Documentation to do list
-- Add source 
-- Add state codes
 - Add clarification about 97, 98, 99 coded fields
 - Update based on any additional cleaning for migration flow mapping
 
