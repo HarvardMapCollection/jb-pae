@@ -3,7 +3,6 @@
 ## Overview
 
 1. Source data was obtained via [POPULATE] on [DATE] and is in folder `original`.
-  - 
 
 2. In its original state, the data came as two spreadsheets `ENPOL2021_2_3` and `ENPOL2021_SOC`, where one record in each represents a survey response from an incarcerated person. There are state codes for the following variables, which JB would like to use to create choropleth or flow maps:
   - P1_5: state of birth
@@ -30,7 +29,7 @@ There are 61,450 survey responses. We used a combination of OpenRefine, R, and Q
 You can use the `geojson` polygon layers in `state_counts` to visualize the data. Note the occurrences have not been normalized to population or any other factor. 
 
 
-# Documentation to do
+# Documentation to do list
 - Add source 
 - Add state codes
 - Add clarification about 97, 98, 99 coded fields
