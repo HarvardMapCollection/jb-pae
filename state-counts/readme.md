@@ -1,0 +1,1 @@
+Thread on [normalizing crime data](https://opendata.stackexchange.com/questions/381/how-to-normalize-the-data-when-mapping-crime-reports)
