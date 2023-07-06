@@ -7,13 +7,13 @@ df <- read_csv("~/Desktop/geocoded.csv")
 
 df_geocoded <- df %>%
   # Add column to specify that these are in Mexico
-  mutate(to_geocode = paste0(P3_6, ", Mexico")) %>%
+  mutate(to_geocode = paste0(place, ", United States")) %>%
   # Geocode with OpenStreetMap
   geocode(to_geocode, method = "osm") %>%
   # Rename lat/long columns to provide clarity about what they represent
   rename(
-    P3_6_lat = lat,
-    P3_6_lon = long
+    lat = lat,
+    lon = long
   )
 
 ####### 
